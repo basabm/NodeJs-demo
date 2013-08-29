@@ -1,0 +1,129 @@
+
+html {
+    background: url("http://www.red-team-design.com/wp-content/uploads/2012/01/wall.png") repeat scroll 0 0 #EAEAEA;
+    font-family: Arial,Helvetica;
+    font-size: small;
+}
+body {
+    background: none repeat scroll 0 0 padding-box #FFFFFF;
+    border: 7px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    padding: 15px;
+    position: relative;
+    width: 60%;
+    z-index: 0;
+    font-size: 22px;
+}
+h1 {
+    font-family: 'Droid Sans',sans-serif;
+    font-size: 22px;
+}
+.headline1 {
+    border-bottom: 1px dashed #AAAAAA;
+    border-left: 7px solid rgba(0, 0, 0, 0.2);
+    margin: 0 -15px 15px -22px;
+    padding: 5px 15px;
+}
+.headline2 {
+    border-bottom: 1px solid #AAAAAA;
+    margin: 15px 0;
+    padding: 5px 0;
+    position: relative;
+}
+.headline2:before, .headline2:after {
+    border-right: 20px solid #FFFFFF;
+    border-top: 15px solid #AAAAAA;
+    bottom: -15px;
+    content: "";
+    left: 25px;
+    position: absolute;
+}
+.headline2:after {
+    border-right-color: transparent;
+    border-top-color: #FFFFFF;
+    bottom: -13px;
+    left: 26px;
+}
+.headline3 {
+    background: -moz-linear-gradient(#F5F5F5, #E5E5E5) repeat scroll 0 0 transparent;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.8) inset;
+    margin-left: -22px;
+    margin-right: -22px;
+    padding: 15px;
+    position: relative;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.headline3:before, .headline3:after {
+    border-left: 6px solid transparent;
+    border-top: 6px solid #555555;
+    bottom: -6px;
+    content: "";
+    left: 0;
+    position: absolute;
+}
+.headline3:before {
+    border-left: medium none;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #555555;
+    bottom: -6px;
+    left: auto;
+    right: 0;
+}
+.headline4 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #EEEEEE;
+    border-style: solid;
+    border-width: 5px 5px 5px 0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    margin: 0 0 15px -15px;
+    padding: 5px 15px;
+    position: relative;
+}
+.headline4:after {
+    -moz-transform: rotate(2deg);
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.698);
+    bottom: 15px;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.698);
+    content: "";
+    height: 10px;
+    position: absolute;
+    right: 15px;
+    width: 70%;
+    z-index: -1;
+}
+.headline5 {
+    overflow: hidden;
+    text-align: center;
+}
+.headline5 span {
+    position: relative;
+}
+.headline5 span:before, .headline5 span:after {
+    border-bottom: 2px solid #999999;
+    border-top: 2px solid #999999;
+    content: "";
+    height: 0.4em;
+    margin-top: -0.2em;
+    position: absolute;
+    top: 50%;
+    width: 200em;
+}
+.headline5 span:before {
+    margin-right: 0.5em;
+    right: 100%;
+}
+.headline5 span:after {
+    left: 100%;
+    margin-left: 0.5em;
+}
+#about {
+    color: #777777;
+    font: small/20px Arial,Helvetica;
+    margin-top: 40px;
+    text-align: center;
+}
+#about a {
+    color: #999999;
+}
+

@@ -1,0 +1,8 @@
+
+/*
+ * GET users listing.
+ */
+var boat = require('../models/boat');
+exports.coordinates = function(req, res){
+  res.send("respond with a resource");
+};

@@ -1,0 +1,33 @@
+link(href='http://fonts.googleapis.com/css?family=Droid+Sans:700',rel='stylesheet',type='text/css')
+link(href='/stylesheets/source_code.css',rel='stylesheet',type='text/css')
+
+div(class="headline4")
+  |About Demo
+div(class="square")
+  1. This demo is developed in Node.js.
+  br
+  2. Express.js framework is used.
+  br
+  3. Jade templating system is used for views.
+  br
+  4. Mongoose is used for database handling.
+  br
+div(class="headline4")
+  |Steps to set up application 
+div(class="square")
+  br
+  1. Make sure Mongodb is installed.
+  br
+  2. cd into application directory.
+  br
+  3. node seed.js
+  br
+  4. node app.js
+  br
+  br
+  div(style="float:right")
+   a(HREF="javascript:history.back()")
+     |Back
+  br
+  br
+
